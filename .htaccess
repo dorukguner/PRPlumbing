@@ -1,5 +1,5 @@
 DirectoryIndex index.html
-ErrorDocument 404 http://domain.com/
+ErrorDocument 404 index.html
 
 RewriteEngine on
 
