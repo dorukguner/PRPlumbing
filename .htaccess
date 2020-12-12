@@ -1,8 +1,8 @@
 DirectoryIndex index.html
-ErrorDocument 404 https://dorukguner.github.io/PRPlumbing/
 
 RewriteEngine on
 
+ErrorDocument 404 /index.html
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
