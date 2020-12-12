@@ -1,5 +1,5 @@
 DirectoryIndex index.html
-ErrorDocument 404 index.html
+ErrorDocument 404 https://dorukguner.github.io/PRPlumbing/
 
 RewriteEngine on
 
