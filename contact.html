@@ -119,8 +119,11 @@
                 </div>
                 <div class="col-md-6 padding-15">
                     <div class="contact-form">
-                        <form action="contact_process.php" method="post" id="ajax_form"
-                            class="form-horizontal">
+                        <!-- <form action="contact_process.php" method="post" id="ajax_form"
+                            class="form-horizontal"> -->
+                        <form method="post" action="FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var   originalCharset = document.charset; document.charset = 'ISO-8859-1';
+                        window.onbeforeunload = function (){document.charset=originalCharset;};">
+                            <input type="hidden" name="recipient" value="stackmuch@gmail.com" />
                             <div class="form-group colum-row row">
                                 <div class="col-sm-6">
                                     <input type="text" id="name" name="name" class="form-control" placeholder="Name"
